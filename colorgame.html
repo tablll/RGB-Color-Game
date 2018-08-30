@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="colorgame.css">
+
+</head>
+<body>
+    <h1> What color is this? <br>
+    <span id='colorDisplay'> RGB </span> <br>
+    Try to guess! <br>
+    
+    </h1>
+    
+    
+    <div id='stripe'>
+    
+    <button id="reset">NEW COLORS</button>
+    <span id="message">          </span> 
+    <button class='mode'>EASY</button>
+    <button class='mode selected'>HARD</button>
+    <button class='mode '>IMPOSIBBLE</button>
+    </div>
+    
+<div class="wrap">
+           
+    <div class='cont box-1'>
+
+         <h2>Total Score: <br> <span id='score'> 0 </span> / 10 </h2>
+            
+    </div>
+        
+    <div class='cont box-2'>
+
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            <div class=square></div>
+            
+    </div>
+        
+    <div class='cont box-3'>
+
+         <h2> Wrong Clicks: <br> <span id='clicksDisplay'> 0 </span> / <span id='clicksToLooseDisplay'> 15 </span> </h2>
+            
+    </div>
+       
+</div>  
+    
+<script src="colorgame.js"></script>
+    
+</body>
+</html>
